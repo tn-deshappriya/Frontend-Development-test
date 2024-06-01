@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>K.M.T.N.Deshappriya</title>
   <link rel="stylesheet" href="style.css">
+  <script src="action.js"></script>
 </head>
 <body>
   <div id="header">
@@ -43,18 +44,18 @@
             ante convallis mattis. Quisque in sem tristique, dictum sapien
             et, accumsan libero.</p>
             <div class="tab-title">
-              <p class="tab-links active-link">Skills</p>
-              <p class="tab-links">Experience</p>
-              <p class="tab-links">Education</p>
+              <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents active-tab" id="Skills">
               <ul>
                 <li><span>UI/UX</span><br>Design Web/App interface</li>
                 <li><span>Web Development</span><br>Web App Development</li>
                 <li><span>App Development</span><br>Building Android/ios apps</li>
               </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents" id="Experience">
               <ul>
                 <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute.</li>
                 <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
@@ -62,7 +63,7 @@
                 <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
               </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents" id="Education">
               <ul>
                 <li><span>2016</span><br>UI/UX Design Traning at ET Institute.</li>
                 <li><span>2016</span><br>MBA from MIT Bangalore.</li>
