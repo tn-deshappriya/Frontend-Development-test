@@ -1,13 +1,1 @@
-var tablinks = document.getElementsByClassName("tab-links");
-var tabcontents = document.getElementsByClassName("tab-contents");
-
-function opentab(tabname){
-    for (tablink of tablinks){
-        tablink.classList.remove("active-link");
-    }
-    for (tabcontent of tabcontents){
-        tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-}
+var _0xf64469=_0xe3d2;function _0xffc1(){var _0x20efe4=['44787816IgvXLJ','getElementsByClassName','getElementById','4133577ZwPXLl','active-link','39PZXESS','4171332OgBDmo','remove','2336205NGTchs','tab-links','classList','8872216CtUXoZ','1737703PLnEmS','active-tab','2818dBwyMm','currentTarget','18zsjrKH','add'];_0xffc1=function(){return _0x20efe4;};return _0xffc1();}(function(_0x15f87d,_0x120872){var _0x39b91e=_0xe3d2,_0xcd68a3=_0x15f87d();while(!![]){try{var _0x1435dd=parseInt(_0x39b91e(0x1de))/0x1+parseInt(_0x39b91e(0x1e0))/0x2*(parseInt(_0x39b91e(0x1d7))/0x3)+parseInt(_0x39b91e(0x1d8))/0x4+parseInt(_0x39b91e(0x1da))/0x5*(parseInt(_0x39b91e(0x1e2))/0x6)+parseInt(_0x39b91e(0x1d5))/0x7+parseInt(_0x39b91e(0x1dd))/0x8+-parseInt(_0x39b91e(0x1e4))/0x9;if(_0x1435dd===_0x120872)break;else _0xcd68a3['push'](_0xcd68a3['shift']());}catch(_0x30207c){_0xcd68a3['push'](_0xcd68a3['shift']());}}}(_0xffc1,0xe182a));function _0xe3d2(_0x162fa5,_0x5e8467){var _0xffc12=_0xffc1();return _0xe3d2=function(_0xe3d2de,_0x3c0353){_0xe3d2de=_0xe3d2de-0x1d5;var _0x4aae1b=_0xffc12[_0xe3d2de];return _0x4aae1b;},_0xe3d2(_0x162fa5,_0x5e8467);}var tablinks=document['getElementsByClassName'](_0xf64469(0x1db)),tabcontents=document[_0xf64469(0x1e5)]('tab-contents');function opentab(_0x190343){var _0xb3a08b=_0xf64469;for(tablink of tablinks){tablink['classList'][_0xb3a08b(0x1d9)](_0xb3a08b(0x1d6));}for(tabcontent of tabcontents){tabcontent[_0xb3a08b(0x1dc)][_0xb3a08b(0x1d9)](_0xb3a08b(0x1df));}event[_0xb3a08b(0x1e1)][_0xb3a08b(0x1dc)][_0xb3a08b(0x1e3)](_0xb3a08b(0x1d6)),document[_0xb3a08b(0x1e6)](_0x190343)[_0xb3a08b(0x1dc)][_0xb3a08b(0x1e3)](_0xb3a08b(0x1df));} 
